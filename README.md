@@ -59,7 +59,7 @@ python run.py \
     --seq_len 96 \
     --pred_len 96
 ```
-
+大家可以看到Scripts下有aral、hotan等脚本，那个是我的私有数据集暂未公开，大家可以用[TimeMixer_ME_unify.sh](scripts%2Flong_term_forecast%2FWeather_script%2FTimeMixer_ME_unify.sh)来测试脚本
 ## 💡 核心特性
 
 1. **多尺度时序分解**
