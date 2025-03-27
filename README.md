@@ -1,6 +1,6 @@
-# MemMixer
+# TimeMixer_ME
 
-MemMixer是一个基于TimeMixer创新的深度学习模型，专门用于处理复杂的时间序列任务。该模型采用多尺度记忆增强机制，能够有效处理长期依赖关系和多变量交互。
+TimeMixer_ME是一个基于TimeMixer创新的深度学习模型，专门用于处理复杂的时间序列任务。该模型采用多尺度记忆增强机制，能够有效处理长期依赖关系和多变量交互。
 
 ## 📋 主要功能
 
@@ -27,8 +27,8 @@ torch==2.6.0.dev20250103+cu126
 ### 安装
 
 ```bash
-git clone https://github.com/JiauloJiaulo/MemMixer.git
-cd MemMixer
+git clone https://github.com/Jiaulo/TimeMixer-ME.git
+cd TimeMixer_ME
 pip install -r requirements.txt
 ```
 
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 python run.py \
     --task_name long_term_forecast \
     --is_training 1 \
-    --model MemMixer \
+    --model TimeMixer_ME \
     --data ETTm1 \
     --root_path ./data/ETT/ \
     --data_path ETTm1.csv \
@@ -53,7 +53,7 @@ python run.py \
 python run.py \
     --task_name long_term_forecast \
     --is_training 0 \
-    --model MemMixer \
+    --model TimeMixer_ME \
     --data ETTm1 \
     --features M \
     --seq_len 96 \

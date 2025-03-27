@@ -1,6 +1,6 @@
 export CUDA_VISIBLE_DEVICES=0
 
-model_name=MemMixer
+model_name=TimeMixer_ME
 
 seq_len=96
 e_layers=3
@@ -17,8 +17,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_aral_processed.csv \
-  --model_id weather_aral_6 \
+  --data_path weather_final_hotan_processed.csv \
+  --model_id weather_hotan_6 \
   --model $model_name \
   --data custom \
   --features M \
@@ -48,8 +48,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_aral_processed.csv \
-  --model_id weather_aral_12 \
+  --data_path weather_final_hotan_processed.csv \
+  --model_id weather_hotan_12 \
   --model $model_name \
   --data custom \
   --features M \
@@ -79,8 +79,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_aral_processed.csv \
-  --model_id weather_aral_18 \
+  --data_path weather_final_hotan_processed.csv \
+  --model_id weather_hotan_18 \
   --model $model_name \
   --data custom \
   --features M \
@@ -110,8 +110,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_aral_processed.csv \
-  --model_id weather_aral_24 \
+  --data_path weather_final_hotan_processed.csv \
+  --model_id weather_hotan_24 \
   --model $model_name \
   --data custom \
   --features M \
@@ -141,8 +141,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_aral_processed.csv \
-  --model_id weather_aral_30 \
+  --data_path weather_final_hotan_processed.csv \
+  --model_id weather_hotan_30 \
   --model $model_name \
   --data custom \
   --features M \
@@ -172,8 +172,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_aral_processed.csv \
-  --model_id weather_aral_36 \
+  --data_path weather_final_hotan_processed.csv \
+  --model_id weather_hotan_36 \
   --model $model_name \
   --data custom \
   --features M \
@@ -203,8 +203,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_aral_processed.csv \
-  --model_id weather_aral_42 \
+  --data_path weather_final_hotan_processed.csv \
+  --model_id weather_hotan_42 \
   --model $model_name \
   --data custom \
   --features M \
@@ -234,8 +234,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_aral_processed.csv \
-  --model_id weather_aral_48 \
+  --data_path weather_final_hotan_processed.csv \
+  --model_id weather_hotan_48 \
   --model $model_name \
   --data custom \
   --features M \

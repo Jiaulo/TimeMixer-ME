@@ -1,6 +1,6 @@
 export CUDA_VISIBLE_DEVICES=0
 
-model_name=MemMixer
+model_name=TimeMixer_ME
 
 seq_len=96
 e_layers=3
@@ -17,8 +17,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_kuche_processed.csv \
-  --model_id weather_kuche_6 \
+  --data_path weather_final_Tikanlik_processed.csv \
+  --model_id weather_Tikanlik_6 \
   --model $model_name \
   --data custom \
   --features M \
@@ -48,8 +48,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_kuche_processed.csv \
-  --model_id weather_kuche_12 \
+  --data_path weather_final_Tikanlik_processed.csv \
+  --model_id weather_Tikanlik_12 \
   --model $model_name \
   --data custom \
   --features M \
@@ -79,8 +79,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_kuche_processed.csv \
-  --model_id weather_kuche_18 \
+  --data_path weather_final_Tikanlik_processed.csv \
+  --model_id weather_Tikanlik_18 \
   --model $model_name \
   --data custom \
   --features M \
@@ -110,8 +110,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_kuche_processed.csv \
-  --model_id weather_kuche_24 \
+  --data_path weather_final_Tikanlik_processed.csv \
+  --model_id weather_Tikanlik_24 \
   --model $model_name \
   --data custom \
   --features M \
@@ -141,8 +141,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_kuche_processed.csv \
-  --model_id weather_kuche_30 \
+  --data_path weather_final_Tikanlik_processed.csv \
+  --model_id weather_Tikanlik_30 \
   --model $model_name \
   --data custom \
   --features M \
@@ -172,8 +172,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_kuche_processed.csv \
-  --model_id weather_kuche_36 \
+  --data_path weather_final_Tikanlik_processed.csv \
+  --model_id weather_Tikanlik_36 \
   --model $model_name \
   --data custom \
   --features M \
@@ -203,8 +203,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_kuche_processed.csv \
-  --model_id weather_kuche_42 \
+  --data_path weather_final_Tikanlik_processed.csv \
+  --model_id weather_Tikanlik_42 \
   --model $model_name \
   --data custom \
   --features M \
@@ -234,8 +234,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_kuche_processed.csv \
-  --model_id weather_kuche_48 \
+  --data_path weather_final_Tikanlik_processed.csv \
+  --model_id weather_Tikanlik_48 \
   --model $model_name \
   --data custom \
   --features M \

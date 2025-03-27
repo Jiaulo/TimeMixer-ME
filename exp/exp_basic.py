@@ -1,13 +1,13 @@
 import os
 import torch
-from models import MemMixer
+from models import TimeMixer_ME
 
 
 class Exp_Basic(object):
     def __init__(self, args):
         self.args = args
         self.model_dict = {
-            'MemMixer': MemMixer,
+            'TimeMixer-ME': TimeMixer_ME,
         }
         self.device = self._acquire_device()
         self.model = self._build_model().to(self.device)

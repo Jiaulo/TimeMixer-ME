@@ -1,6 +1,6 @@
 export CUDA_VISIBLE_DEVICES=0
 
-model_name=MemMixer
+model_name=TimeMixer_ME
 
 seq_len=96
 e_layers=3
@@ -17,8 +17,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_Tikanlik_processed.csv \
-  --model_id weather_Tikanlik_6 \
+  --data_path weather_final_kashgar_processed.csv \
+  --model_id weather_kashgar_6 \
   --model $model_name \
   --data custom \
   --features M \
@@ -29,9 +29,9 @@ python -u run.py \
   --e_layers $e_layers \
   --d_layers 1 \
   --factor 3 \
-  --enc_in 21 \
-  --dec_in 21 \
-  --c_out 21 \
+  --enc_in 16 \
+  --dec_in 16 \
+  --c_out 16 \
   --des 'Exp' \
   --itr 1 \
   --d_model $d_model \
@@ -48,8 +48,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_Tikanlik_processed.csv \
-  --model_id weather_Tikanlik_12 \
+  --data_path weather_final_kashgar_processed.csv \
+  --model_id weather_kashgar_12 \
   --model $model_name \
   --data custom \
   --features M \
@@ -60,9 +60,9 @@ python -u run.py \
   --e_layers $e_layers \
   --d_layers 1 \
   --factor 3 \
-  --enc_in 21 \
-  --dec_in 21 \
-  --c_out 21 \
+  --enc_in 16 \
+  --dec_in 16 \
+  --c_out 16 \
   --des 'Exp' \
   --itr 1 \
   --d_model $d_model \
@@ -79,8 +79,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_Tikanlik_processed.csv \
-  --model_id weather_Tikanlik_18 \
+  --data_path weather_final_kashgar_processed.csv \
+  --model_id weather_kashgar_18 \
   --model $model_name \
   --data custom \
   --features M \
@@ -91,9 +91,9 @@ python -u run.py \
   --e_layers $e_layers \
   --d_layers 1 \
   --factor 3 \
-  --enc_in 21 \
-  --dec_in 21 \
-  --c_out 21 \
+  --enc_in 16 \
+  --dec_in 16 \
+  --c_out 16 \
   --des 'Exp' \
   --itr 1 \
   --d_model $d_model \
@@ -110,8 +110,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_Tikanlik_processed.csv \
-  --model_id weather_Tikanlik_24 \
+  --data_path weather_final_kashgar_processed.csv \
+  --model_id weather_kashgar_24 \
   --model $model_name \
   --data custom \
   --features M \
@@ -122,9 +122,9 @@ python -u run.py \
   --e_layers $e_layers \
   --d_layers 1 \
   --factor 3 \
-  --enc_in 21 \
-  --dec_in 21 \
-  --c_out 21 \
+  --enc_in 16 \
+  --dec_in 16 \
+  --c_out 16 \
   --des 'Exp' \
   --itr 1 \
   --d_model $d_model \
@@ -141,8 +141,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_Tikanlik_processed.csv \
-  --model_id weather_Tikanlik_30 \
+  --data_path weather_final_kashgar_processed.csv \
+  --model_id weather_kashgar_30 \
   --model $model_name \
   --data custom \
   --features M \
@@ -153,9 +153,9 @@ python -u run.py \
   --e_layers $e_layers \
   --d_layers 1 \
   --factor 3 \
-  --enc_in 21 \
-  --dec_in 21 \
-  --c_out 21 \
+  --enc_in 16 \
+  --dec_in 16 \
+  --c_out 16 \
   --des 'Exp' \
   --itr 1 \
   --d_model $d_model \
@@ -172,8 +172,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_Tikanlik_processed.csv \
-  --model_id weather_Tikanlik_36 \
+  --data_path weather_final_kashgar_processed.csv \
+  --model_id weather_kashgar_36 \
   --model $model_name \
   --data custom \
   --features M \
@@ -184,9 +184,9 @@ python -u run.py \
   --e_layers $e_layers \
   --d_layers 1 \
   --factor 3 \
-  --enc_in 21 \
-  --dec_in 21 \
-  --c_out 21 \
+  --enc_in 16 \
+  --dec_in 16 \
+  --c_out 16 \
   --des 'Exp' \
   --itr 1 \
   --d_model $d_model \
@@ -203,8 +203,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_Tikanlik_processed.csv \
-  --model_id weather_Tikanlik_42 \
+  --data_path weather_final_kashgar_processed.csv \
+  --model_id weather_kashgar_42 \
   --model $model_name \
   --data custom \
   --features M \
@@ -215,9 +215,9 @@ python -u run.py \
   --e_layers $e_layers \
   --d_layers 1 \
   --factor 3 \
-  --enc_in 21 \
-  --dec_in 21 \
-  --c_out 21 \
+  --enc_in 16 \
+  --dec_in 16 \
+  --c_out 16 \
   --des 'Exp' \
   --itr 1 \
   --d_model $d_model \
@@ -234,8 +234,8 @@ python -u run.py \
   --task_name long_term_forecast \
   --is_training 1 \
   --root_path ./dataset/weather/ \
-  --data_path weather_final_Tikanlik_processed.csv \
-  --model_id weather_Tikanlik_48 \
+  --data_path weather_final_kashgar_processed.csv \
+  --model_id weather_kashgar_48 \
   --model $model_name \
   --data custom \
   --features M \
@@ -246,9 +246,9 @@ python -u run.py \
   --e_layers $e_layers \
   --d_layers 1 \
   --factor 3 \
-  --enc_in 21 \
-  --dec_in 21 \
-  --c_out 21 \
+  --enc_in 16 \
+  --dec_in 16 \
+  --c_out 16 \
   --des 'Exp' \
   --itr 1 \
   --d_model $d_model \
